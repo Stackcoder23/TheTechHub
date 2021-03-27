@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.custombody {
+    /* background-image: url("dark-back.jpg"); */
+    display: flex;
+    font: normal 13px/1.5 Georgia, Serif;
+    color: #333;
+    background-color: #EEF2F7;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.add-to-cart:link, a:visited {
+    background-color: rgb(255, 251, 0);
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .add-to-cart:hover, a:active {
+    color: inherit;
+    background-color: rgb(87, 206, 87);
+    color: black;
+  }
+
+.wrapper {
+    width: 70%;
+    height: 120%;
+    margin: 10px auto;
+    padding: 10px;
+}
+  .zoom {
+    
+    padding: 30px;
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    transition: transform .2s;
+    width: 80px;
+    height: 250px;
+    margin:-5%;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); 
+  }
+.custombody h1 {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    /*float: left;*/
+}
+.clear {
+    clear: both;
+}
+/* .items {
+    display: block;
+    margin: 20px 0;
+
+} */
+.item {
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 30%;
+    padding: 10px;
+    height: 80%;
+}
+.item {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  
+    
+    
+    min-height: 200px;
+    border-radius: 5px;
+  }
+
+.item img {
+    display: block;
+    margin: auto;
+    
+    height: 70%;
+}
+h2 {
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+/* button {
+    border: 1px solid #1b5672;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #1b721f;
+    text-transform: uppercase;
+    float: right;
+    margin: 1px 0;
+    font-weight: bold;
+} */
+span {
+    float: right;
+}
+
+/* button:hover{
+	background-color: green;
+} */
+
+/* .shopping-cart {
+    display: inline-block;
+    background: url('') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+} */
+
+.buildbutton{
+  background: linear-gradient(to bottom, rgb(235, 233, 112), rgb(206, 202, 4));
+  border: 1px solid #1b5672;
+  color: black;
+  margin-left: 78%;
+}
